@@ -2,6 +2,8 @@
 
 **A Hinglish / Marathi-English voice agent that makes pre-due EMI reminder calls for a lender, and the evaluation and launch decision for it.**
 
+**Live demo:** https://kisht-green.vercel.app · **Case study:** https://yash-portfolio-one-sand.vercel.app/projects/kisht
+
 > **Honesty notes, up front**
 > - **Sahayak Finance is fictional.** No real lender, loan or borrower is represented. All data is sample data.
 > - **No eval results exist yet.** Every metric in the app and in `docs/RESULTS.md` says "not run yet" until a real run happens in your browser. Nothing is pre-filled.
@@ -86,7 +88,7 @@ npm run build      # type-check + production build to dist/
 npm run scenarios  # regenerate data/scenarios.jsonl from scripts/build-scenarios.mjs
 ```
 
-Deploy: static site; `vercel.json` is included (`npm run build` → `dist/`). Not deployed.
+Deploy: static site; `vercel.json` is included (`npm run build` → `dist/`). Live: https://kisht-green.vercel.app
 
 ### BYOK (bring your own key)
 
