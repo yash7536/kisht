@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+.env.*
+*.local
+# Never commit keys, recordings or personal data from real-user tests
+recordings/
+real-user-data/
+results/*.json
+!results/.gitkeep
